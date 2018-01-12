@@ -1,2 +1,2 @@
-# appBackend
-Backend with node.js, express and mongoDB
+# Backend App
+Backend with Node.js, Express and MongoDB

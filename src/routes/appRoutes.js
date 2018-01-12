@@ -13,9 +13,9 @@ router.route('/').get(function(req, res) {
 //Save user information to database
 router.route('/saved').post(function(req, res) {
     User.create({
-        id: 'id2',
-        name: 'ariene2',
-        email: 'email2'
+        id: 'id3',
+        name: 'ariene3',
+        email: 'email3'
     }, function(err) {
         if (err) {
             console.log(err);
@@ -24,6 +24,5 @@ router.route('/saved').post(function(req, res) {
         }
     });
 });
-
 
 module.exports = router;
