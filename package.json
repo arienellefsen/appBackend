@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon app.js"
+        "start": "nodemon app.js",
+        "test": "mocha --recursive"
     },
     "repository": {
         "type": "git",
@@ -21,7 +22,10 @@
         "mongoose": "4.10.0"
     },
     "devDependencies": {
+        "chai": "^4.1.2",
+        "chai-http": "^3.0.0",
         "jshint": "^2.9.4",
-        "jshint-stylish": "^2.2.1"
+        "jshint-stylish": "^2.2.1",
+        "mocha": "^4.1.0"
     }
 }
