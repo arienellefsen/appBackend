@@ -1,6 +1,7 @@
 'use strict';
 
-const chai = require('chai');
+var chai = require('chai');
+
 const expect = require('chai').expect;
 
 chai.use(require('chai-http'));
@@ -14,14 +15,7 @@ describe('API endpoint /', function() {
 });
 
 // GET - List all colors
-it('should return all users', function() {
-    return chai.request(app)
-        .get('/')
-        .then(function(res) {
-            expect(res).to.have.status(200);
-            expect(res).to.be.json;
-        });
-});
+
 
 // POST - Add new color
 it('should add new user', function() {
